@@ -1,4 +1,4 @@
-# CSS Responsive Webpage Project
+# CSS Webpage Project
 
 ## About the Project
 
@@ -24,6 +24,7 @@ This is a beginner-level HTML and CSS project created as part of my learning jou
 - **Media Queries** to change layout and font sizes for different screen widths (e.g., mobile and desktop)
 - Flexbox/Grid (if used) for flexible content alignment
 - Ensuring the webpage looks good between 0px to 400px width
+- (Note: media queries are used on the aboutus page only.)
 
 ### ✅ Project Folder Structure
 project-folder/
