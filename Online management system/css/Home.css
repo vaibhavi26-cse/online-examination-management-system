@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('../font/custom.ttf') format('truetype');
+}
+main{
+    background-image: url('../images/bg.jpg');
+    background-size: contain;
+    color:white;
+    padding:2vh 15vh 3vh;
+    margin:4vh 3vh 3vh 4vh;
+    border: 2px solid gray;
+}
+.mainheader{
+    margin-bottom: 2vh;
+}
+.mainheader nav{
+    background-color: rgb(182, 178, 178);
+    padding:10px;
+}
+.mainheader nav ul{
+    list-style-type: none;
+    color:white;
+    display:flex;
+}
+.mainheader a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+.mainheader img{
+    margin-bottom:13px;
+    height:200px;
+    width:250px;
+}
+.mainheader nav li a{
+    padding: 25px 20px;
+    transition: all 0.3s ease;
+    height:100%;
+}
+.mainheader a:hover{
+    background-color: rgb(237, 115, 22);
+    color:black;
+}
+.maincontent{
+    display:flex;
+    gap:4vw;
+}
+.maincontent h2{
+    font-family: "MyCustomFont",sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+ .content{
+ width:56vw;
+ }  
+
+ .topcontent{
+    background-color: white;
+    padding:28px;
+    margin-bottom:2vh;
+    border:2px solid gray;
+ }
+ .topcontent a{
+    text-decoration: none;
+    color:orange;
+ }
+ .topcontent footer{
+    color:gray;
+    font-size: large;
+ }
+ .topcontent content{
+    color:black;
+    font-size: large;
+    font-family: sans-serif;
+ }
+ .bottomcontent{
+    background-color: white;
+    padding:28px;
+    margin-bottom:10px;
+    border:2px solid gray;
+ }
+ .bottomcontent a{
+    text-decoration: none;
+    color:orange;
+ }
+ .bottomcontent footer{
+    color:gray;
+    font-size: large;
+ }
+ .bottomcontent content{
+    color:black;
+    font-size: large;
+    font-family: sans-serif;
+ }
+ .sec{
+    display:flex;
+   
+    gap:3vh;
+ }
+ aside{
+    color:black;
+     width:20vw;
+     height:15vh;
+     padding:7px;
+     margin-bottom:2vh;
+     border:2px solid gray;
+ }
+ .top-sidebar{
+    background-color: #fff;
+    font-size: large;
+ }
+ .middle-sidebar{
+    background-color: #fff;
+font-size: large; 
+}
+ .bottom-sidebar{
+    background-color: #fff;
+    font-size: large;
+ }
+ .mainfooter{
+     background-color: rgb(182, 178, 178);
+    padding:10px 70px 10px;
+ }
+ .mainfooter a{
+    color:orange;
+ }
